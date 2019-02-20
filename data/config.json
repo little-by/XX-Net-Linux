@@ -1,0 +1,152 @@
+{
+    "AUTORANGE_MAXBUFFERSIZE": 548576,
+    "AUTORANGE_MAXSIZE": 548576,
+    "AUTORANGE_THREADS": 5,
+    "BR_SITES": [
+        "webcache.googleusercontent.com",
+        "www.google.com",
+        "www.google.com.hk",
+        "www.google.com.cn",
+        "fonts.googleapis.com"
+    ],
+    "BR_SITES_ENDSWITH": [
+        ".youtube.com",
+        ".facebook.com",
+        ".googlevideo.com"
+    ],
+    "GAE_APPIDS": [
+    ],
+    "GAE_PASSWORD": "",
+    "GAE_VALIDATE": 0,
+    "JS_MAXSIZE": 2097152, 
+    "PROXY_ENABLE": 0,
+    "PROXY_HOST": "",
+    "PROXY_PASSWD": "",
+    "PROXY_PORT": 0,
+    "PROXY_TYPE": "HTTP",
+    "PROXY_USER": "",  
+    "auto_adjust_scan_ip_thread_num": 0,
+    "check_commonname": "Google",
+    "check_exist_ip_on_startup": 0,
+    "check_ip_accept_status": [
+        200,
+        503
+    ],
+    "check_ip_content": "GoAgent",
+    "check_ip_host": "xxnet-1.appspot.com",
+    "check_ip_path": "/",
+
+    "check_pkp": [
+        "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnCoEd1zYUJE6BqOC4NhQ\nSLyJP/EZcBqIRn7gj8Xxic4h7lr+YQ23MkSJoHQLU09VpM6CYpXu61lfxuEFgBLE\nXpQ/vFtIOPRT9yTm+5HpFcTP9FMN9Er8n1Tefb6ga2+HwNBQHygwA0DaCHNRbH//\nOjynNwaOvUsRBOt9JN7m+fwxcfuU1WDzLkqvQtLL6sRqGrLMU90VS4sfyBlhH82d\nqD5jK4Q1aWWEyBnFRiL4U5W+44BKEMYq7LqXIBHHOZkQBKDwYXqVJYxOUnXitu0I\nyhT8ziJqs07PRgOXlwN+wLHee69FM8+6PnG33vQlJcINNYmdnfsOEXmJHjfFr45y\naQIDAQAB\n-----END PUBLIC KEY-----\n",
+        "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAylJL6h7/ziRrqNpyGGjV\nVl0OSFotNQl2Ws+kyByxqf5TifutNP+IW5+75+gAAdw1c3UDrbOxuaR9KyZ5zhVA\nCu9RuJ8yjHxwhlJLFv5qJ2vmNnpiUNjfmonMCSnrTykUiIALjzgegGoYfB29lzt4\nfUVJNk9BzaLgdlc8aDF5ZMlu11EeZsOiZCx5wOdlw1aEU1pDbcuaAiDS7xpp0bCd\nc6LgKmBlUDHP+7MvvxGIQC61SRAPCm7cl/q/LJ8FOQtYVK8GlujFjgEWvKgaTUHF\nk5GiHqGL8v7BiCRJo0dLxRMB3adXEmliK+v+IO9p+zql8H4p7u2WFvexH6DkkCXg\nMwIDAQAB\n-----END PUBLIC KEY-----\n",
+        "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEG4ANKJrwlpAPXThRcA3Z4XbkwQvW\nhj5J/kicXpbBQclS4uyuQ5iSOGKcuCRt8ralqREJXuRsnLZo0sIT680+VQ==\n-----END PUBLIC KEY-----\n"
+    ],
+    "check_sni": 0,
+    "connect_force_http1": 0,
+    "connect_force_http2": 0,
+    "connection_pool_min": 1,
+    "connect_receive_buffer": 4194304, 
+    "dispather_max_idle_workers": 15,
+    "dispather_max_workers": 90,
+    "dispather_min_idle_workers": 1,
+    "dispather_min_workers": 50,
+    "dispather_score_factor": 1,
+    "dispather_work_max_score": 1000,
+    "dispather_work_min_idle_time": 0,
+    "down_fail_connect_interval": 60,
+    "front_continue_fail_block": 0,
+    "front_continue_fail_num": 10,
+
+    "google_endswith": [
+        ".youtube.com",
+        ".googleapis.com",
+        ".google.com",
+        ".googleusercontent.com",
+        ".ytimg.com",
+        ".doubleclick.net",
+        ".google-analytics.com",
+        ".googlegroups.com",
+        ".googlesource.com",
+        ".gstatic.com",
+        ".appspot.com",
+        ".gvt1.com",
+        ".android.com",
+        ".ggpht.com",
+        ".googleadservices.com",
+        ".googlesyndication.com",
+        ".2mdn.net"
+    ],
+    "hosts_direct": [
+        "docs.google.com",
+        "appengine.google.com"
+    ],
+    "hosts_direct_endswith": [
+        ".gvt1.com",
+        ".appspot.com"
+    ],
+    "hosts_gae": [
+        "accounts.google.com",
+        "mail.google.com"
+    ],
+    "hosts_gae_endswith": [
+        ".googleapis.com"
+    ],
+
+    "http1_first_ping_wait": 5,
+    "http1_idle_time": 200,
+    "http1_max_process_tasks": 99999999,
+    "http1_new_connect_num": 1,
+    "http1_ping_interval": 0,
+    "http2_max_concurrent": 40,
+    "http2_max_timeout_tasks": 1,
+    "http2_ping_min_interval": 30,
+    "http2_show_debug": 0,
+    "http2_status_to_close": [],
+    "http2_target_concurrent": 1,
+    "http2_timeout_active": 0,
+    "https_connection_pool_max": 10,
+    "https_connection_pool_min": 0,
+    "https_keep_alive": 5,
+    "https_max_connect_thread": 10,
+    "https_new_connect_num": 3,
+    "ip_connect_interval": 5,
+    "ipv6_scan_ratio": 90,
+    "listen_ip": "127.0.0.1",
+    "listen_port": 8087,
+    "long_fail_connect_interval": 180,
+    "long_fail_threshold": 300,
+    "max_connect_thread": 1,
+    "max_good_ip_num": 2000,
+    "max_links_per_ip": 1,
+    "max_scan_ip_thread_num": 0,
+    "max_task_num": 100,
+    "min_intermediate_CA": 2,
+
+    "modules": {
+        "gae_proxy": {
+            "auto_start": 1,
+            "show_detail": 0
+        },
+        "launcher": {
+            "allow_remote_connect": 0,
+            "auto_start": 0,
+            "control_port": 8085,
+            "last_run_version": "3.11.9",
+            "proxy": "disable"
+        },
+        "smart_router": {
+            "auto_start": 0
+        },
+        "x_tunnel": {
+            "auto_start": 0
+        }
+    },
+    "record_ip_history": 0,
+    "short_fail_connect_interval": 10,
+    "setting_level": "normal",
+    "show_state_debug": 0,
+    "ssl_first_use_timeout": 5,
+    "support_http2": 1,
+    "target_handshake_time": 200,
+    "use_ipv6": "force_ipv6"
+}
