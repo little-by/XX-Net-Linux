@@ -24,7 +24,10 @@ Usage:
     about:config
     network.proxy.type 1     
     network.proxy.http 127.0.0.1
-    network.proxy.http_port 8087      
+    network.proxy.http_port 8087
+    network.trr.mode 2
+    network.trr.uri https://mozilla.cloudflare-dns.com/dns-query
+    
 
 Note: all XX-Net 3.13.1 related Python 2.7.15+ libs are latest version and installed by pip2.
 
