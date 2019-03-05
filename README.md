@@ -16,7 +16,11 @@ Usage:
     cd XX-Net-Linux/local && python2 proxy.py
     
     # Chromium
-    
+
+    sudo aptitude install dnscrypt-proxy
+    # edit /etc/dnscrypt-proxy/dnscrypt-proxy.toml, 
+    # change server_names = ['cloudflare'] to server_names = ['cloudflare', 'cloudflare-ipv6']
+    sudo /usr/sbin/dnscrypt-proxy -config /etc/dnscrypt-proxy/dnscrypt-proxy.toml 
     chromium --proxy-server="http://127.0.0.1:8087"
     
     # Firefox 
@@ -29,7 +33,7 @@ Usage:
     network.trr.uri https://mozilla.cloudflare-dns.com/dns-query
     
 
-Note: all XX-Net 3.13.1 related Python 2.7.15+ libs are latest version and installed by pip2.
+Note: all XX-Net 3.13.1 related Python 2.7.16rc1 libs are latest version and installed by pip2.
 
     pip2 install hyper hyperframe ipaddress pyasn1 pyOpenSSL PySocks setuptools -U
     
