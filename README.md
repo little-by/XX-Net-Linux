@@ -20,7 +20,7 @@ Usage:
     sudo aptitude install dnscrypt-proxy
     # edit /etc/dnscrypt-proxy/dnscrypt-proxy.toml, 
     # change server_names = ['cloudflare'] to server_names = ['cloudflare', 'cloudflare-ipv6']
-    sudo /usr/sbin/dnscrypt-proxy -config /etc/dnscrypt-proxy/dnscrypt-proxy.toml 
+    /usr/sbin/dnscrypt-proxy -config /etc/dnscrypt-proxy/dnscrypt-proxy.toml 
     chromium --proxy-server="http://127.0.0.1:8087"
     
     # Firefox 
