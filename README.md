@@ -35,7 +35,8 @@ Usage:
     network.trr.mode 2
     network.trr.uri https://mozilla.cloudflare-dns.com/dns-query
     
-    # If the Browser say: 'This page isn’t workingIf the problem continues, contact the site owner.  HTTP ERROR 400', 
+    # If the Browser say: 'This page isn’t working If the problem continues, contact the site owner.
+    # HTTP ERROR 400', 
     # or something like this, please wait for a while(around 1 mins), all will works ok(update: 2019-08-22). 
     
 
